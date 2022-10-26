@@ -35,7 +35,7 @@ Presentation
 
     Image {
         id: background1
-        source: "1-welcometo.png"
+        source: "3-slideshow.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -46,7 +46,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "Welcome to"
+        text: "Choose whether or not you use the SteamDeck interface. There should be a script on the desktop for that."
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center
@@ -60,7 +60,7 @@ Presentation
 
     Image {
         id: background2
-        source: "2-alci.png"
+        source: "3-slideshow.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -71,7 +71,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "ALCI"
+        text: "Even more packages than ArchLinux and more up to date than SteamOS holo and you can install Blackarch packages too."
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center

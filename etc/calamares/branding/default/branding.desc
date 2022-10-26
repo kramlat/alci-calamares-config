@@ -39,7 +39,7 @@ welcomeExpandingLogo:   true
 #  - "normal" or unset, expand as needed, use *windowSize*
 #  - "fullscreen", start as large as possible, ignore *windowSize*
 #  - "noexpand", don't expand automatically, use *windowSize*
-windowExpanding:    normal
+windowExpanding:    fullscreen
 
 # Size of Calamares window, expressed as w,h. Both w and h
 # may be either pixels (suffix px) or font-units (suffix em).
@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         ALCI
-    shortProductName:    ALCI
-    version:             2021.01.1
-    shortVersion:        2020.01.1
-    versionedName:       ALCI
-    shortVersionedName:  ALCI
-    bootloaderEntryName: Generic
+    productName:         AetherOS Quasar
+    shortProductName:    AetherOS
+    version:             2022.10.25
+    shortVersion:        2022.10.25
+    versionedName:       Quasar
+    shortVersionedName:  Quasar
+    bootloaderEntryName: AetherOS
 
 # These images are loaded from the branding module directory.
 #
@@ -175,10 +175,10 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#292F34"
+   sidebarBackground:    "#be74f9"
    sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   sidebarTextSelect:    "#7b55a2"
+   sidebarTextHighlight: "#9c98cb"
 
 ### SLIDESHOW
 #
